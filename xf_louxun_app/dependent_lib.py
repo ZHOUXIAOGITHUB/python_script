@@ -4,7 +4,7 @@
 #File:  dependent_lib.py
 from appium import webdriver
 
-
+# app依赖库
 class App_Dependent_Lib:
     def __init__(self):
         # decried_caps = {
@@ -29,6 +29,7 @@ class App_Dependent_Lib:
     def wait(self):
         self.driver.implicitly_wait(10)
 
+    #滑动函数
     def swipe(self, x1, y1, x2, y2):
         self.driver.swipe(x1, y1, x2, y2)
 
@@ -36,3 +37,8 @@ class App_Dependent_Lib:
         self.driver.find_element_by_id(ele).click()
     def find_ele_id_send(self, ele, value):
         self.driver.find_element_by_id(ele).send_keys(value)
+
+# web依赖库
+class Web_Dependent_Lib:
+    def __init__(self):
+        

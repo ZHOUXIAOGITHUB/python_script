@@ -38,7 +38,8 @@ M_xpath = '/html/body/div[1]/div[2]/div[2]/div/div/div/div[2]/div/div/div[2]/div
 # 获取查询后的第一条短信
 first_mess = "/html/body/div[1]/div[2]/div[2]/div/div/div/div[2]/div/div/div[2]/div[1]/div/div[5]/div[1]/div[3]/table/tbody/tr[1]/td[3]/div/div/span[1]"
 get_message = driver.find_element_by_xpath(first_mess).text
-# message = []
-# message.append(get_message)
-print(get_message)
+message_str = str(get_message)
+# 获取注册短信的验证码
+auth_code = get_message[21:25]
+print(get_message[21:25])
 
