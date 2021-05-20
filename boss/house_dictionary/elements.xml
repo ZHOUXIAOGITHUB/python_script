@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<boss uu="ioioioioi">
+    <login uu="ioioioioi">
+        <username username ="4444">//*[@id="app"]/div/div[1]/div/form/div[2]/div/div/input</username>
+        <password>//*[@id="app"]/div/div[1]/div/form/div[3]/div/div/input</password>
+        <click_save>el-button--primary</click_save>
+        <switch_menu>
+            //*[@id="app"]/div/div[1]/div/div[1]/div/ul/div[2]/li/div/span
+            <click_house_dictionary>//*[@id="app"]/div/div[1]/div/div[1]/div/ul/div[2]/li/div/span
+                <switch_ifarm>//*[@id = "app"]/div/div[2]/div[2]/iframe</switch_ifarm>
+            </click_house_dictionary>
+        </switch_menu>
+    </login>
+
+</boss>
+
