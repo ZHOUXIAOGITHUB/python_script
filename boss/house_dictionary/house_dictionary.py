@@ -7,7 +7,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import pymysql
 import sys
-sys.path.append('E:\\louxun\\python_script\\boss\\depend_lib\\operate_file.py')
+sys.path.append('E:\\louxun\\python_script\\boss\\depend_lib')
 # 插入yaml存储用户名称和密码
 from depend_lib.operate_file import Rend_File
 account_number = Rend_File().read_yaml("..//house_dictionary//login_password", "admin")
