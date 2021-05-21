@@ -6,13 +6,17 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import pymysql
+import sys
+sys.path.append('E:\\louxun\\python_script\\boss\\depend_lib\\operate_file.py')
 # 插入yaml存储用户名称和密码
 from depend_lib.operate_file import Rend_File
 account_number = Rend_File().read_yaml("..//house_dictionary//login_password", "admin")
-from depend_lib.operate_file import Rend_File
 sales_message = Rend_File().read_csv("..//house_dictionary//house_message.csv")
-
 from depend_lib.element_operate import Element_Operate
+
+
+
+
 driver = Element_Operate()
 # driver = webdriver.Chrome()
 driver.get_url(sales_message[1])
