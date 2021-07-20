@@ -85,13 +85,16 @@
 # tt = ReadXml("elements.xml", "boss", 0, "login", 0,"username",0, 0)
 # print(tt)
 # print("{}{}".format("ss", "+uu"))
-import time
+# import time
+#
+# from selenium import webdriver
+# driver = webdriver.Chrome()
+# driver.get("http://shenzhen.louxuntest.com/")
+# driver.maximize_window()
+# driver.execute_script("javascript:alert('欢迎来到楼讯！！！')")
+# time.sleep(3)
+# driver.switch_to_alert().accept()
 
-from selenium import webdriver
-driver = webdriver.Chrome()
-driver.get("http://shenzhen.louxuntest.com/")
-driver.maximize_window()
-driver.execute_script("javascript:alert('欢迎来到楼讯！！！')")
-time.sleep(3)
-driver.switch_to_alert().accept()
-
+import sys
+sys.path.append('E:\\louxun\\python_script\\boss\\depend_lib')
+print(sys.path)

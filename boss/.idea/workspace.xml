@@ -1,31 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34fd8460-2e1a-4047-a9e9-651fff7d1455" name="Default Changelist" comment="">
+    <list default="true" id="34fd8460-2e1a-4047-a9e9-651fff7d1455" name="Default Changelist" comment="数盘字典新建分支">
       <change afterPath="$PROJECT_DIR$/../.idea/csv-plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ranzhi.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Program/DinfDing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Program/Excel_kao_qin.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Program/kaoqinbiao.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Program/数据导出.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/depend_lib/element_lib.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/depend_lib/element_operate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/depend_lib/operate_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/house_dictionary/elements.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/house_dictionary/house_dictionary.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/house_dictionary/house_message.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/house_dictionary/login_password" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/house_dictionary/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/house_dictionary/test1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/house_dictionary/element_operate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/house_dictionary/house_q.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../reusable/.idea/reusable.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ranzhi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ranzhi.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/depend_lib/element_lib.py" beforeDir="false" afterPath="$PROJECT_DIR$/depend_lib/element_lib.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/depend_lib/element_operate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/house_dictionary/house_dictionary.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/house_dictionary/login_password" beforeDir="false" afterPath="$PROJECT_DIR$/house_dictionary/login_password" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house_dictionary/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/house_dictionary/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house_dictionary/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/house_dictionary/test1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lib/Publice_Lib.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Publice_Lib.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../stady/confirmed_users.py" beforeDir="false" afterPath="$PROJECT_DIR$/../stady/confirmed_users.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../stady/counting.py" beforeDir="false" afterPath="$PROJECT_DIR$/../stady/counting.py" afterDir="false" />
@@ -58,16 +48,21 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/Programs/Python/Python310" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\louxun\python_script\boss\house_dictionary" />
       <recent name="E:\louxun\python_script\boss\Program" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\louxun\python_script\boss\house_dictionary" />
+      <recent name="E:\louxun\python_script\boss\depend_lib_1" />
+      <recent name="E:\louxun\python_script\boss" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.house_dictionary">
+  <component name="RunManager" selected="Python.main">
     <configuration name="house_dictionary" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ranzhi" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -81,7 +76,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/house_dictionary/house_dictionary.py" />
+      <option name="SCRIPT_NAME" value="E:\louxun\python_script\boss\house_dictionary\house_q.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -90,7 +85,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="kaoqinbiao" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ranzhi" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -98,12 +93,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Program" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/house_dictionary" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Program/kaoqinbiao.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/house_dictionary/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -112,7 +107,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="operate_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ranzhi" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -120,34 +115,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/depend_lib" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/house_dictionary" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/depend_lib/operate_file.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="subprocess" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ranzhi" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/subprocess.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/house_dictionary/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -178,13 +151,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="zf_message_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ranzhi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../zf_message_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.house_dictionary" />
+        <item itemvalue="Python.zf_message_test" />
         <item itemvalue="Python.test1" />
-        <item itemvalue="Python.kaoqinbiao" />
-        <item itemvalue="Python.operate_file" />
-        <item itemvalue="Python.subprocess" />
       </list>
     </recent_temporary>
   </component>
@@ -221,38 +216,93 @@
       <workItem from="1621219590721" duration="4995000" />
       <workItem from="1621318644387" duration="898000" />
       <workItem from="1621390478967" duration="2968000" />
-      <workItem from="1621495802585" duration="7953000" />
+      <workItem from="1621495802585" duration="8894000" />
+      <workItem from="1621564821712" duration="4040000" />
+      <workItem from="1621845174497" duration="450000" />
+      <workItem from="1622252483785" duration="2451000" />
+      <workItem from="1622798317377" duration="192000" />
+      <workItem from="1625707870148" duration="19000" />
+      <workItem from="1625707908750" duration="613000" />
+      <workItem from="1625709726045" duration="1437000" />
+      <workItem from="1625711558549" duration="687000" />
+      <workItem from="1625715085712" duration="5106000" />
+      <workItem from="1626251289413" duration="9043000" />
+      <workItem from="1626674576870" duration="17691000" />
     </task>
+    <task id="LOCAL-00001" summary="楼盘字典添加楼盘">
+      <created>1621504118109</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1621504118109</updated>
+    </task>
+    <task id="LOCAL-00002" summary="调试无法读取创建的依赖库">
+      <created>1621567555353</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1621567555353</updated>
+    </task>
+    <task id="LOCAL-00003" summary="添加对应的库路径到系统">
+      <created>1621567738988</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1621567738988</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="楼盘字典添加楼盘" />
+    <MESSAGE value="调试无法读取创建的依赖库" />
+    <MESSAGE value="添加对应的库路径到系统" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加对应的库路径到系统" />
   </component>
   <component name="WindowStateProjectService">
     <state x="711" y="342" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1619083331200">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="711" y="342" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1619083331200" />
-    <state x="740" y="299" key="FileChooserDialogImpl" timestamp="1621390610476">
+    <state x="675" y="446" key="#com.jetbrains.python.refactoring.move.PyMakeFunctionTopLevelDialog" timestamp="1626751116530">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="740" y="299" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1621390610476" />
-    <state width="1877" height="319" key="GridCell.Tab.0.bottom" timestamp="1621503386662">
+    <state x="675" y="446" key="#com.jetbrains.python.refactoring.move.PyMakeFunctionTopLevelDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1626751116530" />
+    <state x="560" y="128" key="CommitChangelistDialog2" timestamp="1625731782092">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="319" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1621503386662" />
-    <state width="1877" height="319" key="GridCell.Tab.0.center" timestamp="1621503386662">
+    <state x="560" y="128" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1625731782092" />
+    <state x="184" y="90" key="DiffContextDialog" timestamp="1625708285797">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="319" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1621503386662" />
-    <state width="1877" height="319" key="GridCell.Tab.0.left" timestamp="1621503386662">
+    <state x="184" y="90" key="DiffContextDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1625708285797" />
+    <state x="740" y="299" key="FileChooserDialogImpl" timestamp="1625715147668">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="319" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1621503386662" />
-    <state width="1877" height="319" key="GridCell.Tab.0.right" timestamp="1621503386662">
+    <state x="740" y="299" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1625715147668" />
+    <state x="698" y="406" key="Github.CreatePullRequestDialog" timestamp="1626772541842">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="319" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1621503386662" />
+    <state x="698" y="406" key="Github.CreatePullRequestDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1626772541842" />
+    <state width="1877" height="319" key="GridCell.Tab.0.bottom" timestamp="1626769609292">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="319" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1626769609292" />
+    <state width="1877" height="319" key="GridCell.Tab.0.center" timestamp="1626769609292">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="319" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1626769609292" />
+    <state width="1877" height="319" key="GridCell.Tab.0.left" timestamp="1626769609292">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="319" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1626769609292" />
+    <state width="1877" height="319" key="GridCell.Tab.0.right" timestamp="1626769609292">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="319" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1626769609292" />
     <state width="1877" height="364" key="GridCell.Tab.1.bottom" timestamp="1621501297625">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -269,14 +319,18 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="364" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1621501297624" />
-    <state x="460" y="174" key="SettingsEditor" timestamp="1619055514858">
+    <state x="460" y="174" key="SettingsEditor" timestamp="1625731727176">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="460" y="174" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1619055514858" />
-    <state x="640" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1621390479414">
+    <state x="460" y="174" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1625731727176" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1626772642124">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="640" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1621390479414" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1626772642124" />
+    <state x="640" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1626674577583">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="640" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1626674577583" />
     <state x="567" y="97" width="786" height="885" key="find.popup" timestamp="1621501759451">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -290,8 +344,10 @@
     <SUITE FILE_PATH="coverage/boss$kaoqinbiao.coverage" NAME="kaoqinbiao Coverage Results" MODIFIED="1621235472556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Program" />
     <SUITE FILE_PATH="coverage/boss$operate_file.coverage" NAME="operate_file Coverage Results" MODIFIED="1619073606385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/depend_lib" />
     <SUITE FILE_PATH="coverage/boss$DinfDing.coverage" NAME="DinfDing Coverage Results" MODIFIED="1618391015063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Program" />
-    <SUITE FILE_PATH="coverage/boss$test.coverage" NAME="test Coverage Results" MODIFIED="1618989834778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/house_dictionary" />
-    <SUITE FILE_PATH="coverage/boss$house_dictionary.coverage" NAME="house_dictionary Coverage Results" MODIFIED="1621503386654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/house_dictionary" />
-    <SUITE FILE_PATH="coverage/boss$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1621408600303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/house_dictionary" />
+    <SUITE FILE_PATH="coverage/boss$zf_message_test.coverage" NAME="zf_message_test Coverage Results" MODIFIED="1622798433759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
+    <SUITE FILE_PATH="coverage/boss$house_dictionary.coverage" NAME="house_dictionary Coverage Results" MODIFIED="1625715422263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/house_dictionary" />
+    <SUITE FILE_PATH="coverage/boss$test.coverage" NAME="test Coverage Results" MODIFIED="1626769279207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/house_dictionary" />
+    <SUITE FILE_PATH="coverage/boss$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1621568099563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/house_dictionary" />
+    <SUITE FILE_PATH="coverage/boss$main.coverage" NAME="main Coverage Results" MODIFIED="1626769609285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/house_dictionary" />
   </component>
 </project>

@@ -97,14 +97,27 @@
 #
 # RagPageIndex().regTest()
 # #
-import pymysql
-house_name = '测试楼盘0005'
+# import pymysql
+# house_name = '测试楼盘0005'
+#
+# mysql_connect = pymysql.connect(host="10.1.220.5", port=3306, user="root", password="123456", database="rent_house")
+# msql_cursor = mysql_connect.cursor()
+# sql_del = 'DELETE from tb_base_house where `name` = "%s";'%house_name
+# msql_cursor.execute(sql_del)
+# # mysql_connect.commit()
+# from depend_lib.operate_file import Rend_File
+#
+# account_number = Rend_File().read_yaml("..//house_dictionary//login_password", "admin")
+# print(account_number["username"])
+# from selenium import webdriver
+# from selenium.webdriver.common.by import By
 
-mysql_connect = pymysql.connect(host="10.1.220.5", port=3306, user="root", password="123456", database="rent_house")
-msql_cursor = mysql_connect.cursor()
-sql_del = 'DELETE from tb_base_house where `name` = "%s";'%house_name
-msql_cursor.execute(sql_del)
-mysql_connect.commit()
+# driver = webdriver.Chrome()
+# driver.get("http://10.1.220.235:8081/#/login")
+# driver.maximize_window()
+# driver.find_element(By.XPATH, "//*[@id='app']/div/div[1]/div/form/div[2]/div/div/input").send_keys("|656678")
+from house_dictionary.element_operate import Element_Operate
 
-
-
+t = Element_Operate("Chrome")
+b = t._convert_selector_to_locator("656, 346464")
+print(b)
