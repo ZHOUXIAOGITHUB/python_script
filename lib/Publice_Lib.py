@@ -4,6 +4,35 @@
 #File:  Publice_Lib.py
 import csv #导入csv
 import openpyxl
+from selenium import webdriver
+
+
+class Use_Browser():
+    def __init__(self, browser):
+        try:
+            if browser == "Chrome" or "C":
+                driver = webdriver.Chrome()
+            if browser == "Ie" or "I":
+                driver = webdriver.Ie()
+            if browser == "Safari" or "S":
+                driver = webdriver.Safari()
+            if browser == "Firefox" or "F":
+                driver = webdriver.Firefox()
+            self._base_driver = driver
+        except:
+            raise NameError("请输入正确浏览器")
+
+class H5_Invoking_Chrowser():
+    def use_F12_option(self):
+        option = webdriver.ChromeOptions()
+        option.add_argument("--auto-open-devtools-for-tabs")
+        self.driver = webdriver.Chrome(chrome_options=option)
+
+class use_same_browser():
+    def __init__(self, driver):
+        self.base_driver = driver
+
+
 class PubliceLib:
     ''' 冒泡排序, list 为所需要传输的列表'''
     def bubble_sort(self, list):
@@ -105,6 +134,7 @@ class ExcelHelper:
         get_sheet = wb[sheet_name]
         rows = get_sheet.max_row
         return rows
+
 
 class CsvHelper:
 

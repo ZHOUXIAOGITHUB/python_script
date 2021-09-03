@@ -123,6 +123,10 @@ class Operate_page(Act_On_Same_Browser):
         sql_del = 'DELETE from tb_base_house where `name` = "%s";'%sales_message[3]
         msql_cursor.execute(sql_del)
         mysql_connect.commit()
+        # 关闭数据库关闭游标
+        mysql_connect.close()
+        msql_cursor.close()
+
         print("清除成功", '删除新增的楼盘')
         driver.close_windows()
 

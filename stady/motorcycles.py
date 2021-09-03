@@ -57,7 +57,7 @@ motorcycles_value = 'honda'
 motorcycles_9 = ['honda', 'yamaha', 'suzuki', 'honda']
 motorcycles_9.remove(motorcycles_value)
 print('9', motorcycles_9)
-#\n表示在前面空一行
+# \n表示在前面空一行
 print('\nA ' + motorcycles_value.title() + " is too expensive for me.")
 
 #晚宴练习

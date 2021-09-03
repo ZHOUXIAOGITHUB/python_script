@@ -38,7 +38,7 @@ class App_Dependent_Lib:
     def find_ele_id_send(self, ele, value):
         self.driver.find_element_by_id(ele).send_keys(value)
 
-# web依赖库
-class Web_Dependent_Lib:
-    def __init__(self):
+# # web依赖库
+# class Web_Dependent_Lib:
+#     def __init__(self):
         

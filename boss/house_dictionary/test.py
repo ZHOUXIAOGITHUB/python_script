@@ -115,9 +115,25 @@
 # driver = webdriver.Chrome()
 # driver.get("http://10.1.220.235:8081/#/login")
 # driver.maximize_window()
-# driver.find_element(By.XPATH, "//*[@id='app']/div/div[1]/div/form/div[2]/div/div/input").send_keys("|656678")
-from house_dictionary.element_operate import Element_Operate
-
-t = Element_Operate("Chrome")
-b = t._convert_selector_to_locator("656, 346464")
-print(b)
+# # driver.find_element(By.XPATH, "//*[@id='app']/div/div[1]/div/form/div[2]/div/div/input").send_keys("|656678")
+# from house_dictionary.element_operate import Element_Operate
+#
+# t = Element_Operate("Chrome")
+# b = t._convert_selector_to_locator("656, 346464")
+# print(b)
+#
+#
+# from selenium import webdriver
+# from selenium.webdriver.common.by import By
+#
+# driver = webdriver.Chrome()
+# driver.get("https://www.baidu.com/")
+# ele = (By.ID,"kw")
+# print(*ele)
+# driver.find_element(*ele).send_keys("uuttww")
+# driver.find_element(By.ID,"kw").send_keys("iikk")
+# print(1==1)
+# print(*ele == By.ID,"kw")
+import unittest
+runner = unittest.TextTestRunner()
+runner.run()

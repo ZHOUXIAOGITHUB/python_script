@@ -6,15 +6,13 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 class Element_Operate():
     def __init__(self, browser):
+        if browser == "Chrome" or "C":
+            driver = webdriver.Chrome()
+        elif browser == "Ie" or "I":
+            driver = webdriver.Ie()
+        else:
+           driver = webdriver.Firefox()
         try:
-            if browser == "Chrome" or "C":
-                driver = webdriver.Chrome()
-            elif browser == "Ie" or "I":
-                driver = webdriver.Ie()
-            elif browser == "Firefox" or "F":
-                driver = webdriver.Firefox()
-            else:
-                pass
             self._base_driver = driver
         except:
             raise NameError("请输入正确浏览器")

@@ -10,7 +10,7 @@ while unconfirmed_users:
     confirmed_users.append(current_user)
     print(confirmed_users)
 #循环while以内的部分
-#删除含有特殊元素值的列表 pets.py
+#删除含有特殊元素值的列表
 pets = ['dog', 'cat', 'dog', 'goldfish', 'cat', 'rabbit', 'cat']
 while "cat" in pets:
     pets.remove("cat")
