@@ -1,21 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34fd8460-2e1a-4047-a9e9-651fff7d1455" name="Default Changelist" comment="新增运行入口">
-      <change afterPath="$PROJECT_DIR$/../.idea/csv-plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../reusable/.idea/reusable.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+    <list default="true" id="34fd8460-2e1a-4047-a9e9-651fff7d1455" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house_dictionary/element_operate.py" beforeDir="false" afterPath="$PROJECT_DIR$/house_dictionary/element_operate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house_dictionary/house_q.py" beforeDir="false" afterPath="$PROJECT_DIR$/house_dictionary/house_q.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house_dictionary/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/house_dictionary/main_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house_dictionary/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/house_dictionary/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lib/Publice_Lib.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Publice_Lib.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stady/confirmed_users.py" beforeDir="false" afterPath="$PROJECT_DIR$/../stady/confirmed_users.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stady/counting.py" beforeDir="false" afterPath="$PROJECT_DIR$/../stady/counting.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stady/motorcycles.py" beforeDir="false" afterPath="$PROJECT_DIR$/../stady/motorcycles.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stady/voting.py" beforeDir="false" afterPath="$PROJECT_DIR$/../stady/voting.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xf_louxun_app/dependent_lib.py" beforeDir="false" afterPath="$PROJECT_DIR$/../xf_louxun_app/dependent_lib.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,7 +214,7 @@
       <workItem from="1625715085712" duration="5106000" />
       <workItem from="1626251289413" duration="9043000" />
       <workItem from="1626674576870" duration="28339000" />
-      <workItem from="1630388897291" duration="20405000" />
+      <workItem from="1630388897291" duration="22745000" />
     </task>
     <task id="LOCAL-00001" summary="楼盘字典添加楼盘">
       <created>1621504118109</created>
@@ -264,7 +251,21 @@
       <option name="project" value="LOCAL" />
       <updated>1626772857187</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="以用测试套件">
+      <created>1630636794708</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1630636794708</updated>
+    </task>
+    <task id="LOCAL-00007" summary="以用测试套件">
+      <created>1630636840292</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1630636840292</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,17 +277,18 @@
     <MESSAGE value="添加对应的库路径到系统" />
     <MESSAGE value="楼盘字典待完善" />
     <MESSAGE value="新增运行入口" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增运行入口" />
+    <MESSAGE value="以用测试套件" />
+    <option name="LAST_COMMIT_MESSAGE" value="以用测试套件" />
   </component>
   <component name="WindowStateProjectService">
     <state x="675" y="446" key="#com.jetbrains.python.refactoring.move.PyMakeFunctionTopLevelDialog" timestamp="1626751116530">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="675" y="446" key="#com.jetbrains.python.refactoring.move.PyMakeFunctionTopLevelDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1626751116530" />
-    <state x="560" y="128" key="CommitChangelistDialog2" timestamp="1630636793683">
+    <state x="560" y="128" key="CommitChangelistDialog2" timestamp="1630636839406">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="560" y="128" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1630636793683" />
+    <state x="560" y="128" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1630636839406" />
     <state x="184" y="90" key="DiffContextDialog" timestamp="1625708285797">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -319,10 +321,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="460" y="174" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1630479591349" />
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1626772642124">
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1630637000517">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1626772642124" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1630637000517" />
     <state x="640" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1630388897874">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
